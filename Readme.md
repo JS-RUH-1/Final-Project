@@ -75,7 +75,8 @@ You will be woking as an individual for this project.
 - https://expressjs.com/
 
 
-# your prerequisite should be something like this:
+# Your prerequisite should be something like this:
+*Note: add this to your final project Readme*
 
 ## User Stories
 - **Signup:** As an anon I can sign up in the platform so that I can start playing into competition
