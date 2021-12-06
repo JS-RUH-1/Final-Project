@@ -1,5 +1,6 @@
 # Final Project 
 
+![](tuwaiq1000-dark.svg)
 
 ## Overview: 
 
