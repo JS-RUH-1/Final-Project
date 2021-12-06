@@ -13,6 +13,11 @@ You will be woking as an individual for this project.
 - Select a Project Idea of your own.
 - User stories
 - Wireframe 
+- React Router Routes
+- Components
+- Models
+- Backend routes
+
 
 
 ## Requirements:
@@ -69,7 +74,7 @@ You will be woking as an individual for this project.
 - https://expressjs.com/
 
 
-## your prerequisite should be something like this:
+# your prerequisite should be something like this:
 
 ## User Stories
 - **Signup:** As an anon I can sign up in the platform so that I can start playing into competition
@@ -83,9 +88,9 @@ You will be woking as an individual for this project.
 - **Edit User** As a user I can edit my profile, add or substract exit points
 
 
-# Client / Frontend
+## Client / Frontend
 
-## React Router Routes (React App)
+### React Router Routes (React App)
 
 | Path             | Component            | Permissions                | Behavior                                                     |
 | ---------------- | -------------------- | -------------------------- | ------------------------------------------------------------ |
@@ -97,7 +102,7 @@ You will be woking as an individual for this project.
 | `/exitpoint/:id` | TournamentDetailPage | user only `<PrivateRoute>` | Details of a exit points to edit                             |
 | `/exitpoint/:id` | n/a                  | user only `<PrivateRoute>` | Delete exit points                                           |
 
-## Components
+### Components
 
 - LoginPage
 - SplashPage
@@ -109,9 +114,9 @@ You will be woking as an individual for this project.
 - EditProfilePage
 - Navbar
 
-# Server / Backend
+## Server / Backend
 
-## Models
+### Models
 
 User model
 
@@ -146,7 +151,7 @@ Exit model
  }
 ```
 
-## Backend routes
+### Backend routes
 
 | HTTP Method | URL            | Request Body                                                 | Success status | Error Status | Description                                                  |
 | ----------- | -------------- | ------------------------------------------------------------ | -------------- | ------------ | ------------------------------------------------------------ |
@@ -162,13 +167,13 @@ Exit model
 | PUT         | /api/user      | {username, email, password}                                  |                |              | Used to update current user's profile. Id of the user is coming form the req.session.currentUser |
 
 
-## Links
+### Links
 
-### Trello/Kanban
+* Trello/Kanban
 
 [Link to your trello board](https://trello.com/b/PBqtkUFX/curasan) or picture of your physical board
 
-### Git
+* Git
 
 The url to your repository and to your deployed project
 
@@ -178,16 +183,14 @@ The url to your repository and to your deployed project
 
 [Deployed App Link](http://heroku.com/)
 
-### Slides
+* Slides
 
 The url to your presentation slides
 
 [Slides Link](http://slides.com/)
+* Wireframe
 
-Wireframe
-
-The url to your presentation slides
+The url to your Wireframe 
 
 [Figma Link](http://www.figma.com/file/GNvDVBD1NPTydU2PJy4DDM/dataBASE?node-id=0%3A88)
 
-https://www.figma.com/file/GNvDVBD1NPTydU2PJy4DDM/dataBASE?node-id=0%3A88
